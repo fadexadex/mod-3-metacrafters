@@ -1,0 +1,36 @@
+
+{
+  "price": 0.01,
+  "number": 10,
+  "symbol": "NB",
+  "sellerFeeBasisPoints": 500,
+  "gatekeeper": null,
+  "solTreasuryAccount": "DTQz3t2ngG2sHuR2QwSx9n7SFKoi4kEbobto3NKNTv12", 
+  "splTokenAccount": "DTQz3t2ngG2sHuR2QwSx9n7SFKoi4kEbobto3NKNTv12",      
+  "splToken": "febV7JB87MVtSXb8Aq49xQUDmdfqLYGPJaYrJWdHgHY",               
+  "goLiveDate": "2024-02-24T00:00:00Z",
+  "endSettings": null,
+  "whitelistMintSettings": null,
+  "hiddenSettings": null,
+  "uploadMethod": "bundlr",
+  "awsS3Bucket": null,
+  "retainAuthority": true,
+  "isMutable": true,
+  "isSequential": true,
+  "ruleSet":null,
+  "creators": [
+    {
+      "address": "DTQz3t2ngG2sHuR2QwSx9n7SFKoi4kEbobto3NKNTv12", 
+      "share": 100
+    }
+  ],
+  "guards": {
+    "default":{
+      "solPayment":{
+        "value":0.1,
+        "destination": "DTQz3t2ngG2sHuR2QwSx9n7SFKoi4kEbobto3NKNTv12"
+      }
+    }
+  }
+}
+
